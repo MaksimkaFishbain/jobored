@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  min-width: 1440px;
+  color: #232134;
+}
+
+a.active {
+  color: #5E96FC;
+}
+a.active:hover {
+  color: #5E96FC;
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=index.css.map */

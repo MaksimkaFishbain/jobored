@@ -1,0 +1,91 @@
+.card {
+  width: 773px;
+  min-height: 157px;
+  padding: 24px;
+  margin: 0 auto 20px;
+  background: #FFFFFF;
+  border: 1px solid #EAEBED;
+  border-radius: 12px;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.cardHeader h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  margin: 0;
+}
+
+.cardInfo {
+  display: flex;
+  padding: 0;
+  margin: 17px 0;
+}
+.cardInfo li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+.cardInfo li:first-child {
+  list-style-type: none;
+  margin-right: 33px;
+}
+.cardInfo li:last-child::marker {
+  color: #7B7C88;
+}
+
+.locationsInfo {
+  display: flex;
+  width: auto;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+}
+.locationsInfo span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.vacancyInfo {
+  width: 773px;
+  background: #FFFFFF;
+  border: 1px solid #EAEBED;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 0 auto 51px;
+}
+.vacancyInfo p {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: justify;
+}
+.vacancyInfo p:first-child {
+  font-size: 17px;
+}
+.vacancyInfo b {
+  font-size: 20px;
+  line-height: 20px;
+}
+.vacancyInfo ul {
+  width: 725px;
+  padding-left: 24px;
+}
+.vacancyInfo li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+.vacancyInfo li::marker {
+  color: #232134;
+}
+
+/*# sourceMappingURL=cardInfo.module.css.map */

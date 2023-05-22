@@ -1,0 +1,73 @@
+$black: #232134;
+$blueMain:#5E96FC;
+
+.card{
+  width: 773px;
+  min-height: 137px;
+  padding: 24px;
+  margin-top: 16px;
+  background: #FFFFFF;
+  border: 1px solid #EAEBED;
+  border-radius: 12px;
+
+  a{
+    text-decoration: none;
+  }
+}
+
+.cardHeader{
+  display: flex;
+  justify-content: space-between;
+
+  h2{
+    color: $blueMain;
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.cardInfo{
+  display: flex;
+  padding: 0;
+  margin: 13px 0;
+  li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+  }
+
+  li:first-child{
+    list-style-type: none;
+    margin-right: 33px;
+    font-weight: bold;
+    }
+  li:last-child::marker{
+    color: #7B7C88;
+  }
+
+}
+
+.locationsInfo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  span{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $black;
+    margin-left: 11px;
+
+
+  }
+}
+
+

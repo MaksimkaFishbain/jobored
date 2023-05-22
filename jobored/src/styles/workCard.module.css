@@ -1,0 +1,61 @@
+.card {
+  width: 773px;
+  min-height: 137px;
+  padding: 24px;
+  margin-top: 16px;
+  background: #FFFFFF;
+  border: 1px solid #EAEBED;
+  border-radius: 12px;
+}
+.card a {
+  text-decoration: none;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.cardHeader h2 {
+  color: #5E96FC;
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.cardInfo {
+  display: flex;
+  padding: 0;
+  margin: 13px 0;
+}
+.cardInfo li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.cardInfo li:first-child {
+  list-style-type: none;
+  margin-right: 33px;
+  font-weight: bold;
+}
+.cardInfo li:last-child::marker {
+  color: #7B7C88;
+}
+
+.locationsInfo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.locationsInfo span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #232134;
+  margin-left: 11px;
+}
+
+/*# sourceMappingURL=workCard.module.css.map */

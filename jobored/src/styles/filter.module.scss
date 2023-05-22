@@ -1,0 +1,38 @@
+$black: #232134;
+
+.filter{
+  height:360px;
+  width:315px;
+  background-color: white;
+  border: 1px solid #EAEBED;
+  border-radius: 12px;
+  padding: 20px;
+
+
+}
+
+.labelForm{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: $black;
+}
+
+.headerForm{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.name{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: $black;
+}
+
